@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panaderia</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- agregar metas -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+
+                <a class="navbar-brand" href="index.html">
+                    <img src="img/cocu_logo-450.png" alt="logo Bootstrap" width="100px"> </a>
+
+                <!-- boton hamburguesa, todo lo que salga debajo aparece ahi -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#elementosMenu"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="elementosMenu">
+
+                    <ul class="navbar-nav ml-auto ">
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="historia.html">Historia</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="productos.html">Productos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="contactos.html">Contacto</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    
+    <section class="container">
+        <article class="row">
+            <div class="col-sm-12 col-md-6 my-4">
+                <h1 class="display-4 text-uppercase">Nuestra Historia</h1>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore eum, praesentium molestias dignissimos at sequi dolorem error nihil exercitationem vel quod quidem quae dicta reiciendis nostrum similique animi. Facere, deleniti recusandae. Voluptatum consectetur, cupiditate atque sed voluptates magnam ex. At, blanditiis, fuga dolore sit aut quasi repudiandae repellendus mollitia excepturi quo dolorum necessitatibus similique repellat architecto corrupti aliquid dignissimos magnam eos, animi voluptate quibusdam explicabo reiciendis. Voluptates qui magni mollitia pariatur ullam possimus! Modi tempore esse harum illo, architecto sequi!</p>
+            </div>
+            <div class="col-sm-12 col-md-6 my-4">
+                <img class="w-100" src="img/historia.png" alt="">
+            </div>
+        </article>
+        <article class="row">
+            <div class="col-sm-12 col-md-6 my-4">
+                <img class="w-100" src="img/historia2.jpg" alt="">
+            </div>
+            <div class="col-sm-12 col-md-6 my-4">
+                <h1 class="display-4 text-uppercase">Cocu, el nombre</h1>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur pariatur officia dicta rerum blanditiis? Necessitatibus minus fugit in quibusdam debitis?</p>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam fugit voluptatum porro. Laboriosam iste cumque dicta corporis voluptate totam laudantium minima mollitia corrupti, quos possimus nisi aliquam voluptas temporibus repellendus asperiores et placeat ipsam perspiciatis ullam suscipit id. Possimus dolorum consequatur officia doloremque obcaecati, ipsam quisquam, vero tempore aspernatur quas, qui deserunt ad voluptas rem. Recusandae veniam, dolorum tempore facere eligendi adipisci, optio beatae eveniet tempora iste vero? Doloribus, hic?</p>
+
+            </div>
+
+        </article>
+
+    </section>
+    <footer class="container-fluid bg-dark">
+        <section class="container">
+            <!-- probar poniendo otro contenedor aquidentro del fluid para  -->
+            <article class="row text-center py-4">
+                <div class="col-sm-12 col-md-4 text-center ">
+                    <img src="img/cocu_logo-450.png" alt="" width="100px">
+                </div>
+                <div class="col-sm-12 col-md-4 ">
+                    <p class="text-light text-left ">Encontranos en :</p>
+                    <iframe class="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.5116455518037!2d-58.430247584700005!3d-34.59122148046267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca7805795ab9%3A0x3e57d876101402a8!2sCocu%20-%20Caf%C3%A9!5e0!3m2!1ses!2sar!4v1587367748881!5m2!1ses!2sar"
+                        height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                        tabindex="0"></iframe>
+                </div>
+                <div class="col-sm-12 col-md-4 text-light text-left">
+                    <p>horarios de atencion:</p>
+                    <p>Lunes a Sabado</p>
+                </div>
+            </article>
+        </section>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
